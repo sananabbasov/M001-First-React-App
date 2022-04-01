@@ -1,0 +1,27 @@
+#headerNavbar{
+    background-color: #05192241;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    .myNavbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            img{
+                width: 150px;
+            }
+        }
+        .myNavItem{
+            ul{
+                display: flex;
+                align-items: center;
+                margin: 0;
+                li{
+                    list-style: none;
+                    padding: 30px;
+                }
+            }
+        }
+    }
+}
